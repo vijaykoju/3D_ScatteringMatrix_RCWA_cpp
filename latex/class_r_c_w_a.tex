@@ -1,0 +1,84 @@
+\hypertarget{class_r_c_w_a}{}\section{R\+C\+WA Class Reference}
+\label{class_r_c_w_a}\index{R\+C\+WA@{R\+C\+WA}}
+
+
+\hyperlink{class_r_c_w_a}{R\+C\+WA} Class.  
+
+
+
+
+{\ttfamily \#include $<$R\+C\+W\+A.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries R\+C\+WA} (string nm, int nl, const \hyperlink{structpq}{PQ} \&p, const \hyperlink{structg}{Grid} \&\hyperlink{structg}{g}, double Lx, double Ly)\hypertarget{class_r_c_w_a_a88d6c494e422e168893b245f255d5d61}{}\label{class_r_c_w_a_a88d6c494e422e168893b245f255d5d61}
+
+\item 
+void {\bfseries set\+Layer} (const \hyperlink{structinput1}{Layer\+Param} \&lparam)\hypertarget{class_r_c_w_a_ac9d27481627ed8a0f9f5039da4c26647}{}\label{class_r_c_w_a_ac9d27481627ed8a0f9f5039da4c26647}
+
+\item 
+void {\bfseries add\+Grating\+Layer} (int n, const \hyperlink{structinput}{Grating\+Param} \&gparam)\hypertarget{class_r_c_w_a_a24ab71923029b298d78a3f013ae2ee22}{}\label{class_r_c_w_a_a24ab71923029b298d78a3f013ae2ee22}
+
+\item 
+void {\bfseries add\+Plane\+Layer} (int n, const \hyperlink{structinput1}{Layer\+Param} \&lparam)\hypertarget{class_r_c_w_a_a9cc42f20df1a515d3ad6a07de6a9a1f0}{}\label{class_r_c_w_a_a9cc42f20df1a515d3ad6a07de6a9a1f0}
+
+\item 
+void {\bfseries display\+Er\+Convmat} (int n)\hypertarget{class_r_c_w_a_a41874a0fc4a91b70b331e96573242b3c}{}\label{class_r_c_w_a_a41874a0fc4a91b70b331e96573242b3c}
+
+\item 
+void {\bfseries display\+Ur\+Convmat} (int n)\hypertarget{class_r_c_w_a_aee373d8706d6244b94f379de51a52809}{}\label{class_r_c_w_a_aee373d8706d6244b94f379de51a52809}
+
+\item 
+void {\bfseries display\+Layer\+Properties} (int n)\hypertarget{class_r_c_w_a_a3618bdeedb864d5dc49f5b8faf89c68a}{}\label{class_r_c_w_a_a3618bdeedb864d5dc49f5b8faf89c68a}
+
+\item 
+void {\bfseries display\+Er} (int n)\hypertarget{class_r_c_w_a_aa5a374bdf07c822d63c0a6ca64d3079f}{}\label{class_r_c_w_a_aa5a374bdf07c822d63c0a6ca64d3079f}
+
+\item 
+void {\bfseries display\+Ur} (int n)\hypertarget{class_r_c_w_a_a717f67cbafdd2fa924d4b857c816a8b6}{}\label{class_r_c_w_a_a717f67cbafdd2fa924d4b857c816a8b6}
+
+\item 
+double {\bfseries get\+X\+Period} ()\hypertarget{class_r_c_w_a_a9f748293ac49e7b5e925c6195ed9fb67}{}\label{class_r_c_w_a_a9f748293ac49e7b5e925c6195ed9fb67}
+
+\item 
+double {\bfseries get\+Y\+Period} ()\hypertarget{class_r_c_w_a_a1706fec03db0103e26f87c407d5a6423}{}\label{class_r_c_w_a_a1706fec03db0103e26f87c407d5a6423}
+
+\item 
+double {\bfseries get\+Reflection} ()\hypertarget{class_r_c_w_a_a42993768df1f10f922057a1493335258}{}\label{class_r_c_w_a_a42993768df1f10f922057a1493335258}
+
+\item 
+double {\bfseries get\+Transmission} ()\hypertarget{class_r_c_w_a_a2aa0627fec4987a92dd1bf2e357af5a5}{}\label{class_r_c_w_a_a2aa0627fec4987a92dd1bf2e357af5a5}
+
+\item 
+void {\bfseries apply\+Light\+Source} (string type, double wavelen, double theta, double phi)\hypertarget{class_r_c_w_a_a1017dff6661c71d7386c46421cc743f1}{}\label{class_r_c_w_a_a1017dff6661c71d7386c46421cc743f1}
+
+\item 
+Matrix\+Xcd {\bfseries get\+Er} (int n)\hypertarget{class_r_c_w_a_ade34adb639273d0ebfad589e31c7f89c}{}\label{class_r_c_w_a_ade34adb639273d0ebfad589e31c7f89c}
+
+\item 
+Matrix\+Xcd {\bfseries get\+Ur} (int n)\hypertarget{class_r_c_w_a_afb20c852b4d36488e62103ba4cf7f519}{}\label{class_r_c_w_a_afb20c852b4d36488e62103ba4cf7f519}
+
+\item 
+Matrix\+Xcd {\bfseries get\+Er\+Convmat} (int n)\hypertarget{class_r_c_w_a_a7efad0b8ef6066a367248cf8a2a48ac8}{}\label{class_r_c_w_a_a7efad0b8ef6066a367248cf8a2a48ac8}
+
+\item 
+Matrix\+Xcd {\bfseries get\+Ur\+Convmat} (int n)\hypertarget{class_r_c_w_a_a4b7a304b5747d22a1b63f9276e7dcc71}{}\label{class_r_c_w_a_a4b7a304b5747d22a1b63f9276e7dcc71}
+
+\item 
+void {\bfseries allocate} ()\hypertarget{class_r_c_w_a_ad23dd76e53770a3bbf3998787628998d}{}\label{class_r_c_w_a_ad23dd76e53770a3bbf3998787628998d}
+
+\item 
+void {\bfseries run} ()\hypertarget{class_r_c_w_a_a2a9abf43b42c9d70653b9f4468187295}{}\label{class_r_c_w_a_a2a9abf43b42c9d70653b9f4468187295}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_r_c_w_a}{R\+C\+WA} Class. 
+
+Create a \hyperlink{class_r_c_w_a}{R\+C\+WA} object that intializes the variables, vectors, and matrices used during the computation. It defines methods to set up device layers, set material properties, set source, and run rigorous coupled wave analysis. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dropbox/rcwa\+\_\+c++/R\+C\+W\+A.\+h\end{DoxyCompactItemize}
